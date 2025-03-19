@@ -12,8 +12,8 @@ import {
   strikethrough,
   stripAnsiCode,
   underline,
-} from "@std/fmt/colors";
-import type { Rgb } from "@std/fmt/colors";
+} from "jsr:@std/fmt/colors";
+import type { Rgb } from "jsr:@std/fmt/colors";
 
 export class ConsoleStyleText {
   static #text: string = "";
