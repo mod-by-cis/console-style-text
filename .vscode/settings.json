@@ -1,0 +1,16 @@
+{
+  "deno.enable": true,
+  "typescript.tsserver.experimental.enableProjectDiagnostics": false,
+  "breadcrumbs.enabled": true,
+  "cSpell.language": "en, pl",
+  "deno.codeLens.implementations": true,
+  "deno.codeLens.references": true,
+  "deno.codeLens.referencesAllFunctions": true,
+  "deno.codeLens.test": true,
+  "deno.config": "./deno.json",
+  "deno.defaultTaskCommand": "run",
+  "deno.trace.server": "verbose",
+  "editor.guides.indentation": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+}
