@@ -1,9 +1,9 @@
 {
   "name": "@mod-by-cis/console-style-text",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "exports": "./mod.ts",
-  "license": "MIT",
-  "imports": {
-    "@std/fmt": "jsr:@std/fmt@^1.0.6"
+  "license": "Mozilla Public License Version 2.0",
+  "tasks": {
+    "test" : "deno run --watch ./test/test.ts"
   }
 }

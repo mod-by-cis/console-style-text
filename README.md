@@ -1,27 +1,36 @@
 # console-style-text
 
-## `deno.json`
+- `🆕v0.1.0` -> `📦https://raw.githubusercontent.com/mod-by-cis/console-style-text/refs/tags/v0.1.0/mod.ts`
 
-```json
-{
-    "imports": {  
-        "@mod-by-cis/console-style-text": "https://raw.githubusercontent.com/mod-by-cis/console-style-text/refs/tags/v0.0.1/mod.ts"
-    }
-}
-```
+## 📦HOW INSTALL
 
-## `main.ts`
+1. 🅰️ or add import in **`deno.json`**
 
-```ts
-import { ConsoleStyleText as t } from "@mod-by-cis/console-style-text";
+        ```json
+        {
+            "imports": {  
+                "@mod-by-cis/console-style-text": "https://raw.githubusercontent.com/mod-by-cis/console-style-text/refs/tags/v0.1.0/mod.ts"
+            }
+        }
+        ```
 
-console.log(`${
-  t.t("Hello, World!")
-    .c({ r: 255, g: 0, b: 0 }, { r: 0, g: 255, b: 0 })._
-}`);
+2. 🅱️ or add import in **any `*.ts` files**
 
-```
+        ```ts
+        import { 
+            ConsoleStyleText as log 
+        } from "https://raw.githubusercontent.com/mod-by-cis/console-style-text/refs/tags/v0.1.0/mod.ts";
+        ```
 
----
+## 🧠 HOW USED
 
+    ```ts
+        log.t("Hello, World!").c({ r: 255, g: 0, b: 0 }, { r: 0, g: 255, b: 0 }).log;
+    ```
+
+or
+
+    ```ts
+        console.log(`${ log.t("Hello, World!").c({ r: 255, g: 0, b: 0 }, { r: 0, g: 255, b: 0 })._ }`);
+    ```
 ---
