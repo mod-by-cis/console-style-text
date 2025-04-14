@@ -95,10 +95,16 @@ export class ConsoleStyleText {
       return Array(count).fill(val);
     }
     if (this.#text) this.#flush();
+    const sl = this.#segments.length;
+    const sf = sl == 0;
+    const nl = sf ? '':'\n';
     const p = this.#parsePaddingOrMargin(padding);
     const textROW = [' '.repeat(p.xL), text, ' '.repeat(p.xR)].join('');
     const sizeROW = text.length + p.xL + p.xR;
     const nullROW = ' '.repeat(sizeROW);
+    if(p.yT>0 && !sf){
+      this.#segments[sl-1] += nl;
+    }
     const textBOX = [
       ...ROW(nullROW,p.yT),
       textROW,

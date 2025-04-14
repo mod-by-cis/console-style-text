@@ -1,6 +1,6 @@
 {
   "name": "@mod-by-cis/console-style-text",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "exports": "./mod.ts",
   "license": "Mozilla Public License Version 2.0",
   "tasks": {

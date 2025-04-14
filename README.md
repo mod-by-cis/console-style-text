@@ -2,14 +2,11 @@
 
 > a version that supports **multiple strings**, and experimentally supports the **padding**.
 >
-> - `🆕v0.2.0` -> `📦https://raw.githubusercontent.com/mod-by-cis/console-style-text/refs/tags/v0.2.0/mod.ts`
->
-
+> - `🆕v0.2.1` -> `📦https://raw.githubusercontent.com/mod-by-cis/console-style-text/refs/tags/v0.2.1/mod.ts`
 
 > a version supporting a **single string**
 >
 > - `v0.1.0` -> `📦https://raw.githubusercontent.com/mod-by-cis/console-style-text/refs/tags/v0.1.0/mod.ts`
->
 
 ## 📦HOW INSTALL
 
@@ -18,7 +15,7 @@
    ```json
    {
      "imports": {  
-       "@mod-by-cis/console-style-text": "https://raw.githubusercontent.com/mod-by-cis/console-style-text/refs/tags/v0.2.0/mod.ts"
+       "@mod-by-cis/console-style-text": "https://raw.githubusercontent.com/mod-by-cis/console-style-text/refs/tags/v0.2.1/mod.ts"
      }
    }
    ```
@@ -27,7 +24,7 @@
    ```ts
    import { 
      ConsoleStyleText as log 
-   } from "https://raw.githubusercontent.com/mod-by-cis/console-style-text/refs/tags/v0.2.0/mod.ts";
+   } from "https://raw.githubusercontent.com/mod-by-cis/console-style-text/refs/tags/v0.2.1/mod.ts";
    ```
 
 ## 🧠 HOW USED
@@ -63,4 +60,5 @@ log
   .log
 
 ```
+
 ---
